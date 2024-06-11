@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp8.MainPage">
     <HorizontalStackLayout>
-        <Button Text="Open Window" Clicked="Button_Clicked"/>
+        <Button Text="Open Window" Clicked="Button_Clicked" VerticalOptions="Start"/>
     </HorizontalStackLayout>
 </ContentPage>
